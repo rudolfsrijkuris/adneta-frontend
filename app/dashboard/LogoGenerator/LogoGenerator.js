@@ -17,7 +17,7 @@ const LogoGenerator = () => {
       setLoading(true);
 
       // Make the API call to your Express.js backend
-      const response = await axios.post('http://localhost:3080/saveLogoToDB', { prompt, style });
+      const response = await axios.post('https://adneta-backend.onrender.com/saveLogoToDB', { prompt, style });
 
       // Handle the response or update state accordingly
       setResult(response.data);
