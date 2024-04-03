@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700&display=swap');
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.login-form {
+    background: linear-gradient(to top, #28A2EC, #70B9FF);
+    color: white;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+/* LOGIN TITLE */
+.login-title {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NO ACCOUNT */
+.no-account {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-account a {
+    color: #ffffff;
+}
+
+/* LOGIN FORM */
+.form-title {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vh;
+}
+
+.email-input::placeholder {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vh;
+    color: #828A96;
+    border-radius: 20px;
+}
+
+.password-input::placeholder {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vh;
+    color: #828A96;
+    border-radius: 20%;
+}
+
+.remember-me {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 1.6vh;
+    padding-top: 1vh;
+}
+
+/* LOGIN BUTTON */
+.login-button {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 1.7vh;
+    background-color: #ffffff;
+    color: #28A2EC;
+    border-radius: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3vh 20vh;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.login-button:hover {
+    background-color: #edecec;
+    color: #228dcf;
+}
+
+.login-button:active {
+    background-color: #dddddd;
+    color: #2283c0;
+}
+
+/* FORGOT PASSWORD */
+.forgot-password {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 1.5vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5vh;
+}
